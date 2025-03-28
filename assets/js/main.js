@@ -29,3 +29,10 @@ const cartaoCvc = document.getElementById("cartaoCvc");
 CVC.addEventListener("input", () => {
   cartaoCvc.value = CVC.value;
 });
+
+const botao = document.getElementById("botao");
+
+botao.addEventListener("click", () => {
+  document.getElementById("formulario").style.display = "none";
+  document.getElementById("divCriada").style.display = "block";
+});
