@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="design">
+        <div class="fundo">
+          <img src="images/bg-main-desktop.png" alt="" srcset="" />
+        </div>
+        <div class="cartaoFront">
+          <input type="number" class="numberCartao" id="numero" />
+          <input type="text" class="nomeCartao" id="nome" />
+          <input type="text" class="dataCartao" id="data" />
+          <img src="images/bg-card-front.png" alt="" srcset="" />
+          <img src="images/card-logo.svg" class="logo" />
+        </div>
+        <div class="cartaoBack">
+          <img src="images/bg-card-back.png" alt="" />
+          <input type="number" class="cartaoCvc" id="cartaoCvc" />
+        </div>
+      </div>
+      <div class="formulario">
+        <p>Cardholder Name</p>
+        <input type="text" class="inputNome" id="nomeInput" />
+
+        <p>Card Number</p>
+        <input type="number" class="cardNumber" id="escreverNumero" />
+
+        <p>Exp. Date (MM/YY) e CVC</p>
+        <div class="exp-date">
+          <input type="number" class="MM" placeholder="MM" id="MM" />
+          <input type="number" class="YY" placeholder="YY" id="YY" />
+          <input type="number" class="inputCVC" placeholder="CVC" id="CVC" />
+        </div>
+
+        <button class="confirma">Confirm</button>
+      </div>
+    </div>
+
+    <!-- Completed state start -->
+
+    Thank you! We've added your card details Continue
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+      <script src="assets/js/main.js"></script>
+    </div>
+  </body>
+</html>
